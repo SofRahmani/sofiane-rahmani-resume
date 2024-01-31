@@ -23,7 +23,7 @@ export default function RootLayout({
       <head />
       <body className="font-sans min-h-screen bg-background antialiased ">
         <Providers>
-          <div className="relative flex min-h-screen flex-col bg-indigo-50">
+          <div className="relative flex min-h-screen flex-col bg-slate-50">
             <main className="container mx-auto max-w-7xl flex-grow px-6 pt-16 ">
               {children}
             </main>
