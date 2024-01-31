@@ -18,7 +18,7 @@ export default function ProfilPic({
   height,
   radius,
   shadow,
-  isZoomed
+  isZoomed,
 }: ProfilPicProps) {
   return (
     <Image
@@ -30,6 +30,7 @@ export default function ProfilPic({
       isZoomed={isZoomed}
       alt={alt}
       src={src}
+      className=" border border-slate-800 border-4 "
     />
   );
 }
