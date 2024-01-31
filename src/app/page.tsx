@@ -1,4 +1,4 @@
-import Works from '@/components/Categories/Works'
+import Works from '@/components/Works/Works'
 
 
 export default function Resume() {
