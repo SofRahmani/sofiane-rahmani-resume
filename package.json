@@ -9,11 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@nextui-org/chip": "^2.0.25",
+    "@nextui-org/image": "^2.0.24",
     "@nextui-org/react": "^2.2.9",
     "framer-motion": "^11.0.3",
     "next": "14.1.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "tailwind-variants": "^0.1.20"
   },
   "devDependencies": {
     "@types/node": "^20.11.11",
@@ -23,6 +26,8 @@
     "eslint": "^8.56.0",
     "eslint-config-next": "14.1.0",
     "postcss": "^8.4.33",
+    "prettier": "^3.2.4",
+    "prettier-plugin-tailwindcss": "^0.5.11",
     "tailwindcss": "^3.4.1",
     "typescript": "^5.3.3"
   }
