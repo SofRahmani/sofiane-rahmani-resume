@@ -56,7 +56,7 @@ export default function Profil() {
           <div className="flex items-center justify-start gap-2">
             <GitlabIcon />
             <a href="https://gitlab.com/SofianeR" className="text-[#0073aa] hover:underline">
-              SofRahmani
+              @SofianeR
             </a>
             <span className="network">(Gitlab)</span>
           </div>
