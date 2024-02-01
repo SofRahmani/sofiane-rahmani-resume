@@ -1,6 +1,6 @@
 import { Chip } from "@nextui-org/chip";
 
-export interface SkillsProps {
+export interface TagsProps {
   children: React.ReactNode;
   variant: "solid" | "bordered" | "light" | "flat" | "faded" | "shadow" | "dot";
   color: "default" | "primary" | "secondary" | "success" | "warning" | "danger";
@@ -8,9 +8,15 @@ export interface SkillsProps {
   radius: "none" | "sm" | "md" | "lg" | "full";
 }
 
-export default function Skills({ children, variant, color, size, radius }: SkillsProps) {
+export default function Tags({ children, variant, color, size, radius }: TagsProps) {
   return (
-    <Chip variant={variant} color={color} size={size} radius={radius}>
+    <Chip
+      variant={variant}
+      color={color}
+      size={size}
+      radius={radius}
+      className=" cursor-default hover:scale-105 hover:shadow-md "
+    >
       {children}
     </Chip>
   );

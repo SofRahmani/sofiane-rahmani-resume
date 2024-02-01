@@ -1,10 +1,10 @@
 import Profil from "@/components/Header/Profil";
+import ScrollToTopButton from "@/components/ScrollToTop/ScrollToTopButton";
 import { lato } from "@/config/fonts";
 import type { Metadata } from "next";
 import Link from "next/link";
 import "./globals.css";
 import { Providers } from "./providers";
-import ScrollToTopButton from '@/components/ScrollToTop/ScrollToTopButton'
 
 export const metadata: Metadata = {
   title: "Sofiane Rahmani - Développeur Web",
@@ -17,7 +17,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="fr" className={`${lato.variable} font-lato`} suppressHydrationWarning>
+    <html
+      lang="fr"
+      className={`${lato.variable} overflow-x-hidden font-lato`}
+      suppressHydrationWarning
+    >
       <head />
       <body className="font-sans min-h-screen bg-background antialiased ">
         <Providers>
