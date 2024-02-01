@@ -1,7 +1,7 @@
 import Tooltips from "@/components/Tooltips/Tooltips";
 import Hobbie from "./Hobbie";
 
-export const GamesList = ["Wolrd of Warcraft", "The last of us", "God of war"];
+export const GamesList = ["World of Warcraft", "The last of us", "God of war"];
 
 export const MusicList = ["Sign by FLOW", "Tsumibito by LiSA", "Dahlia by CHANMINA"];
 
