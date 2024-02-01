@@ -40,7 +40,7 @@ export default function Profil() {
 
           <div className="flex items-center justify-start gap-2">
             <MailIcon />
-            <a href="mailto:sofiane.rahmani12@gmail.com" className="text-[#0073aa] hover:underline">
+            <a href="mailto:sofiane.rahmani12@gmail.com?subject=Contact professionnel : [NOM DE VOTRE ENTREPRISE]" className="text-[#0073aa] hover:underline">
               sofiane.rahmani12@gmail.com
             </a>
           </div>
