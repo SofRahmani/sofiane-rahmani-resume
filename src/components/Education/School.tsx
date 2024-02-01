@@ -24,7 +24,7 @@ export default function School({
           <p>{location}</p>
         </div>
       </div>
-      <p className=" mb-2 text-justify ">{description}</p>
+      <p className=" mb-2 text-pretty md:text-justify ">{description}</p>
       <span className=" text-sm text-[#6c7781] ">Niveau : {degree}</span>
     </div>
   );
