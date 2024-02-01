@@ -22,7 +22,7 @@ export default function Roles({
   duration
 }: RolesProps) {
   return (
-    <div className=" p-4 hover:bg-slate-100 ">
+    <div className=" p-4 hover:bg-slate-100 w-full ">
       <div className=" mb-2 ">
         <h5 className=" text-lg font-medium lg:text-xl ">{role}</h5>
         <div className=" text-sm text-[#6c7781] ">

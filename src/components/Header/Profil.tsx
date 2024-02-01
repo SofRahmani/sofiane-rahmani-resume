@@ -14,22 +14,22 @@ export default function Profil() {
         isZoomed={false}
         shadow="md"
       />
-      <section className=" flex w-2/5 flex-col gap-4">
+      <section className=" flex w-full flex-col gap-4 md:w-2/5">
         <div className=" flex flex-col ">
           <h1 className=" text-[2.3rem] font-bold leading-9 lg:text-5xl ">Sofiane Rahmani</h1>
           <h2 className=" text-2xl font-medium text-slate-700 lg:text-4xl ">
-            Développeur Web frontend
+            Développeur Web Frontend
           </h2>
         </div>
 
         <p className=" text-justify ">
-          Je suis Sofiane Rahmani, anciennement expert logiciel Maiia Gestion au sein de Cegedim
-          Sante. En plus de ma passion pour les nouvelles technologies, je suis également un
-          développeur web frontend autodidacte. Fort de mes compétences polyvalentes et de mon
-          expérience dans le domaine informatique, je suis enthousiaste à l'idée de postuler pour un
-          poste de développeur frontend junior. Connaissant les technologies modernes et animé par
-          la volonté constante d'apprendre et d'innover, je suis prêt à contribuer activement à vos
-          projets et à apporter une valeur ajoutée significative à votre équipe.
+          Expert logiciel Maiia Gestion au sein de Cegedim Santé. En plus de ma passion pour les
+          nouvelles technologies, je suis également un développeur web frontend autodidacte. Fort de
+          mes compétences polyvalentes et de mon expérience dans le domaine informatique, je suis
+          enthousiaste à l'idée de postuler pour un poste de développeur frontend junior.
+          Connaissant les technologies modernes et animé par la volonté constante d'apprendre et
+          d'innover, je suis prêt à contribuer activement à vos projets et à apporter une valeur
+          ajoutée significative à votre équipe.
         </p>
 
         <div>
