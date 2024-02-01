@@ -22,7 +22,6 @@ export default function ProfilPic({
 }: ProfilPicProps) {
   return (
     <Image
-      as={NextImage}
       width={width}
       height={height}
       radius={radius}

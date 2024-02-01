@@ -6,7 +6,7 @@ export default function Profil() {
   return (
     <header className=" mx-auto flex h-full w-screen flex-col items-start justify-center gap-8 bg-[#f3f4f5] p-10 md:flex-row ">
       <ProfilPic
-        src="https://media.licdn.com/dms/image/D4E03AQEp9fuXy_oaLA/profile-displayphoto-shrink_800_800/0/1678974337529?e=1712188800&v=beta&t=d0HhbcEGUbfVJ5kx8Ly2Vx1JqNFUc5ZZFrdqUniektc"
+        src="../../../public/pp.jpg"
         alt="Photo de profil de Sofiane Rahmani"
         height={168}
         width={168}
