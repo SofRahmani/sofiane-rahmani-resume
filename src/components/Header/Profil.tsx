@@ -6,7 +6,7 @@ export default function Profil() {
   return (
     <header className=" mx-auto flex h-full w-screen flex-col items-start justify-center gap-8 bg-[#f3f4f5] p-10 md:flex-row ">
       <ProfilPic
-        src="../../../public/pp.jpg"
+        src="./pp.jpg"
         alt="Photo de profil de Sofiane Rahmani"
         height={168}
         width={168}
