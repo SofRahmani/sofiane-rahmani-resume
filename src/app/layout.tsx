@@ -5,6 +5,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import "./globals.css";
 import { Providers } from "./providers";
+import { GoogleTagManager } from '@next/third-parties/google'; 
 
 export const metadata: Metadata = {
   title: "Sofiane Rahmani - Développeur Web",
@@ -24,6 +25,7 @@ export default function RootLayout({
     >
       <head />
       <body className="font-sans min-h-screen bg-background antialiased ">
+        <GoogleTagManager gtmId={process.env.GMT_ID || ''} />
         <Providers>
           <div className="relative flex min-h-screen flex-col bg-white">
             <Profil />
