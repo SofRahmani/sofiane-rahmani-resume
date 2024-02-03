@@ -10,7 +10,6 @@
     "export": "next export"
   },
   "dependencies": {
-    "@next/third-parties": "^14.1.0",
     "@nextui-org/chip": "^2.0.25",
     "@nextui-org/image": "^2.0.24",
     "@nextui-org/react": "^2.2.9",
