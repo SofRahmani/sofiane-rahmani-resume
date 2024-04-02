@@ -11,7 +11,7 @@ J'ai donc pris pour modèle le thème [Even](https://www.npmjs.com/package/jsonr
 
 ## Production
 
-[Voir le site](https://sofiane-rahmani-resume.vercel.app/)
+[Voir le site](https://resume.sofiane-rahmani.com/)
 
 
 ## Résultats Lighthouse
