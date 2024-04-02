@@ -10,7 +10,7 @@ import { Providers } from "./providers";
 
 export const metadata: Metadata = {
   title: "Sofiane Rahmani - Développeur Web",
-  description: "Curriculum vitae de Sofiane Rahmani, développeur web."
+  description: "Curriculum vitae de Sofiane Rahmani, développeur web frontend."
 };
 
 export default function RootLayout({
