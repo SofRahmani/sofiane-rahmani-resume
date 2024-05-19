@@ -1,3 +1,4 @@
+import DownloadButton from "@/components/DownloadButton/DownloadButton";
 import Profil from "@/components/Header/Profil";
 import ScrollToTopButton from "@/components/ScrollToTop/ScrollToTopButton";
 import { lato } from "@/config/fonts";
@@ -29,7 +30,10 @@ export default function RootLayout({
         <Providers>
           <div className="relative flex min-h-screen flex-col bg-white">
             <Profil />
+
+            <DownloadButton />
             <ScrollToTopButton />
+
             <main className="container mx-auto max-w-7xl flex-grow px-6 pt-16 ">{children}</main>
             <footer className="flex w-full items-center justify-center py-3">
               <Link
