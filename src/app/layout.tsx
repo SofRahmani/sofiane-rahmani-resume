@@ -2,7 +2,6 @@ import Profil from "@/components/Header/Profil";
 import ScrollToTopButton from "@/components/ScrollToTop/ScrollToTopButton";
 import { lato } from "@/config/fonts";
 import { Analytics } from "@vercel/analytics/react";
-import { SpeedInsights } from "@vercel/speed-insights/next";
 import type { Metadata } from "next";
 import Link from "next/link";
 import "./globals.css";
@@ -27,7 +26,6 @@ export default function RootLayout({
       <head />
       <body className="font-sans min-h-screen bg-background antialiased ">
         <Analytics />
-        <SpeedInsights />
         <Providers>
           <div className="relative flex min-h-screen flex-col bg-white">
             <Profil />
