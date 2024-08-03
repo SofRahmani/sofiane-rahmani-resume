@@ -35,7 +35,7 @@ export default function Profil() {
         <div>
           <div className="flex items-center justify-start gap-2">
             <LocationIcon />
-            <p className=" text-slate-700 ">Onet le Château, France</p>
+            <p className=" text-slate-700 ">6668, rue d'Aragon, Montréal QC</p>
           </div>
 
           <div className="flex items-center justify-start gap-2">
