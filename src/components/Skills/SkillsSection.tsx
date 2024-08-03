@@ -8,7 +8,9 @@ export const skillsList = [
   "React",
   "Next JS",
   "Tailwind CSS",
-  "SASS"
+  "SASS",
+  "PostgreSQL",
+  "Next Auth"
 ];
 
 export default function SkillsSection() {
