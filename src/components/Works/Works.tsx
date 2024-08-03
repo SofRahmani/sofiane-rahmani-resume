@@ -59,7 +59,7 @@ export default function Works() {
               "Support technique",
               "Formation",
               "Documentation",
-              "Configutration de serveurs SQL"
+              "Configuration de serveurs SQL"
             ]}
           />
 
